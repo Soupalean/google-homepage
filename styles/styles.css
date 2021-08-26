@@ -10,6 +10,12 @@ body {
 #logo {
     height: 92px;
     width: 272px;
+    padding-top: 190px;
+}
+#searchbar {
+    width: 470px;
+    height: 20px;
+    margin-top: 20px;
 }
 #navbar {
     position: sticky;
