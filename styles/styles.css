@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
 }
 a {
-    color: #444;
+    color: rgba(0,0,0,0.87);
     text-decoration: #222 none;
+    font-size: 13px;
 }
 a:hover {
-    text-decoration: #222 underline;
+    text-decoration: rgba(0,0,0,0.87) underline;
 }
 .center {
     display: block;
@@ -14,11 +15,25 @@ a:hover {
     margin-right: auto;
     width: 50%;
 }
-.topbar{
+.topbar_left {
     display: inline-block;
-    background-color: #fff;
+    background-color: #0ff;
     text-align: center;
-    padding: 0;
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-right: 5fr;
+}
+.topbar_right {
+    display: inline-block;
+    background-color: #f3f;
+    text-align: center;
+    padding-left: 2fr;
+}
+#sign_in_button {
+    background-color: royalblue;
+    padding: 8px 14px 8px 14px;
+    border-radius: 4px;
+    color: #fff;
 }
 #logo {
     height: 92px;
@@ -27,8 +42,10 @@ a:hover {
 }
 #searchbar {
     width: 470px;
-    height: 20px;
+    height: 40px;
     margin-top: 20px;
+    border-style: solid;
+    border-radius: 40px;
 }
 #navbar {
     position: sticky;
