@@ -18,16 +18,27 @@ a:hover {
 .topbar_left {
     display: inline-block;
     background-color: #0ff;
-    text-align: center;
+    text-align: left;
     padding-top: 10px;
     padding-left: 12px;
     padding-right: 5fr;
+    width: 50%;
 }
 .topbar_right {
     display: inline-block;
     background-color: #f3f;
-    text-align: center;
+    text-align: right;
     padding-left: 2fr;
+    width: 44%;
+    padding-right: 12px;
+}
+.search_buttons {
+    display: inline-block;
+    background-color: rgba(221, 221, 221, 0.87);
+    color: rgba(0,0,0,0.87);
+    border-style: none;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
 }
 #sign_in_button {
     background-color: royalblue;
@@ -51,4 +62,9 @@ a:hover {
     position: sticky;
     bottom: 0;
     color: #222;
+}
+#google_search {
+    margin-left: 35%;
+    margin-top: 30px;
+    margin-right: 20px;
 }
