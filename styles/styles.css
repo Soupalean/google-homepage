@@ -61,12 +61,23 @@ a:hover {
     margin-top: 20px;
     border-style: solid;
     border-radius: 40px;
+    z-index: 1;
 }
 #google_search {
     margin-left: 35%;
     margin-top: 30px;
     margin-right: 20px;
     margin-bottom: 51%;
+}
+#magnifying_glass {
+    z-index: 2;
+    width:40px;
+    position: relative;
+    left: 26%;
+    bottom: -57px;
+}
+#search_by_voice {
+    z-index: 2;
 }
 #navbar {
     position: sticky;
