@@ -42,6 +42,8 @@ a:hover {
 #google_apps {
     width: 25px;
     height: auto;
+    position: relative;
+    top: 8px;
 }
 #sign_in_button {
     background-color: royalblue;
